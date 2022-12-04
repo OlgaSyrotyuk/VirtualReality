@@ -1,0 +1,1071 @@
+html,
+body {
+    height: 100%;
+    background-image: url(../img/main_back.svg);
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vr_equipment_and_popular_headset {
+    display: flex;
+    width: 100%;
+    height: 4520px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61));
+    display: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(213, 7, 247, 0.71) 0%, #AF00A8 38.75%, #5E025C 76.51%, #1B011F 118.85%);
+}
+
+header:hover {
+    box-shadow: 0 0 40px #c459e8;
+    transition: all 0.8s ease 0.1s;
+}
+
+.header-logo {
+    position: static;
+    margin-left: 256px;
+    margin-top: 33px;
+}
+
+.logo-text {
+    position: absolute;
+    width: 83px;
+    height: 48px;
+    left: 140px;
+    top: 41px;
+    
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 180px;
+    color: #FFFFFF;
+}
+
+.main {
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 488px;
+    top: 53px;
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 692px;
+    top: 53px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu1 {
+    font-family: 'Pragmatica';
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu1:hover {
+    color: #1B011F;
+}
+
+.holovna {
+    font-family: 'Pragmatica';
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.holovna:hover {
+    color: #1B011F;
+}
+
+.contacts {
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 861px;
+    top: 53px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contacts:hover{
+    color: #1B011F; 
+}
+
+.about-us {
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 1063px;
+    top: 53px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.line1 {
+    position: absolute;
+    width: 770px;
+    height: 0px;
+    left: 0px;
+    top: 221px;
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.main_phrase {
+    position: absolute;
+width: 1040px;
+height: 134.93px;
+left: 240px;
+top: 279.54px;
+
+font-family: 'Pragmatica';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 71px;
+text-align: center;
+text-decoration: none;
+
+color: #FFFFFF;
+text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+.line2 {
+    position: absolute;
+    width: 770px;
+    height: 0px;
+    right: 0px;
+    top: 473px;
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.photo1 {
+    position: absolute;
+    width: 325.56px;
+    height: 261px;
+    left: 160.94px;
+    top: 524.5px;
+
+    background: url(image.png);
+    box-shadow: -8px  rgba(135, 240, 254, 0.58);
+}
+
+.descr_photo1 {
+    position: absolute;
+    width: 792px;
+    height: 168px;
+    left: 588px;
+    top: 571px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.how_work_main {
+    position: absolute;
+width: 717px;
+height: 62px;
+left: 157px;
+top: 850px;
+
+font-family: 'Pragmatica';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 61px;
+text-align: center;
+
+color: #8302B0;
+text-shadow: 10px 10px 10px #7C0DA4;
+}
+
+.how_work_main_text {
+    position: absolute;
+    width: 1203px;
+    height: 504px;
+    left: 157px;
+    top: 950px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.cardboard_main {
+    position: absolute;
+    width: 575px;
+    height: 62px;
+    left: 131px;
+    top: 1441px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #AF00A8;
+
+    text-shadow: 10px 10px 10px #AF00A8;
+}
+
+.cardboard_main_text {
+    position: absolute;
+    width: 693px;
+    height: 224px;
+    left: 157px;
+    top: 1541px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.photo2 {
+    position: absolute;
+    width: 413px;
+    height: 290px;
+    left: 926px;
+    top: 1475px;
+
+    background: url(image.png);
+    box-shadow: 8px rgba(255, 255, 255, 0.25);
+}
+
+.first_vr_main {
+    position: absolute;
+    width: 641px;
+    height: 62px;
+    left: 131px;
+    top: 1830px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #C31AFF;
+
+    text-shadow: 10px 10px 10px #C31AFF;
+}
+
+.first_vr_main_text {
+    position: absolute;
+    width: 1203px;
+    height: 84px;
+    left: 157px;
+    top: 1930px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.room_vr {
+    position: absolute;
+    width: 344px;
+    height: 62px;
+    left: 149px;
+    top: 2188px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #F563EA;
+    text-shadow: 10px 10px 10px #F563EA;
+}
+
+.room_vr_text1 {
+    position: absolute;
+    width: 795px;
+    height: 244px;
+    left: 157px;
+    top: 2284px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.photo3 {
+   position: absolute;
+    width: 380px;
+    height: 291.52px;
+    left: 996px;
+    top: 2238px;
+
+    background: url(image.png);
+    box-shadow: 8px #E7A2FF; 
+}
+    
+.room_vr_text2 {
+    position: absolute;
+    width: 1203px;
+    height: 248px;
+    left: 160px;
+    top: 2578px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.mini-logo-room-vr {
+    position: absolute;
+    width: 30.9px;
+    height: 28px;
+    left: 747px;
+    top: 2910px;
+}
+
+.type_vr_main_phrase {
+    position: absolute;
+    width: 475px;
+    height: 62px;
+    left: 521px;
+    top: 2988px;
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 10px 10px 10px #511C4D;
+}
+
+.type_vr_descr {
+    position: absolute;
+    width: 1206px;
+    height: 85px;
+    left: 157px;
+    top: 3084px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.text1 {
+    position: absolute;
+    width: 792px;
+    height: 67px;
+    left: 364px;
+    top: 3219px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.pruviaszanui {
+    position: absolute;
+width: 194px;
+height: 31px;
+left: 363px;
+top: 3348px;
+
+font-family: 'Pragmatica';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 34px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.smartphone {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 671px;
+    top: 3348px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.avtonom {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 981px;
+    top: 3348px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.pruviaszanui_descr {
+    position: absolute;
+    width: 387px;
+    height: 274px;
+    left: 157px;
+    top: 3386px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.smartphone_descr {
+    position: absolute;
+    width: 328px;
+    height: 246px;
+    left: 596px;
+    top: 3386px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.avtonom_descr {
+    position: absolute;
+    width: 391px;
+    height: 369px;
+    left: 966px;
+    top: 3386px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.quality_vr {
+    position: absolute;
+    width: 336px;
+    height: 28px;
+    left: 588px;
+    top: 3849px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hight-class {
+    position: absolute;
+    width: 233px;
+    height: 31px;
+    left: 258px;
+    top: 3934px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hight-class_descr {
+    position: absolute;
+    width: 387px;
+    height: 248px;
+    left: 77px;
+    top: 3983px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.average {
+    position: absolute;
+    width: 255px;
+    height: 31px;
+    left: 632px;
+    top: 3934px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.average_descr {
+    position: absolute;
+    width: 328px;
+    height: 387px;
+    left: 596px;
+    top: 3985px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.lower {
+    position: absolute;
+    width: 222px;
+    height: 31px;
+    left: 1036px;
+    top: 3934px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lower_descr {
+    position: absolute;
+    width: 391px;
+    height: 369px;
+    left: 966px;
+    top: 3985px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+footer {
+    box-shadow: 0 0 100px #000000;
+    position: absolute;
+    width: 100%;
+    height: 218px;
+    left: 0px;
+    top: 1760px;
+    background: linear-gradient(180deg, #020003 0%, rgba(58, 1, 78, 0.653125) 41.46%, rgba(116, 0, 157, 0.455208) 68.54%, rgba(189, 0, 255, 0.37) 100%);
+}
+
+footer:hover{
+    box-shadow: 0 0 40px #c459e8;
+    transition: all 0.8s ease 0.1s;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 76px;
+    margin-top: 1629;
+}
+
+.logo-text-footer {
+    position: absolute;
+width: 83px;
+height: 48px;
+left: 136px;
+font-family: 'Pragmatica';
+font-style: bold;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.social {
+    width: 164px;
+    height: 200px;
+    margin-left: 80px;
+    top: 1842px;
+}
+
+.by-designed {
+    width: 222px;
+    height: 15px;
+    margin-left: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+#menushka.active {
+    left: 250px;
+    top: 104px;
+}
+
+#menushka {
+    position: absolute;
+    width: 100%;
+    height: 341px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F3D0FF;
+    border-radius: 30px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#menushka:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.point1_in_menu {
+    position: absolute;
+    width: 702px;
+    height: 28px;
+    left: 182px;
+    top: 38px;
+    
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+    color: #000000;
+    text-decoration: none;
+}
+
+.point2_in_menu {
+    position: absolute;
+    width: 83px;
+    height: 25px;
+    left: 182px;
+    top: 80px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.point3_in_menu{
+    position: absolute;
+    width: 352px;
+    height: 26px;
+    left: 182px;
+    top: 122px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.point4_in_menu {
+    position: absolute;
+    width: 477px;
+    height: 22px;
+    left: 182px;
+    top: 162px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    text-decoration: none;
+    color: #000000;
+}
+
+.point5_in_menu {
+    position: absolute;
+    width: 701px;
+    height: 26px;
+    left: 182px;
+    top: 200px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.point6_in_menu {
+    position: absolute;
+    width: 603px;
+    height: 23px;
+    left: 182px;
+    top: 242px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menusha {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%99%;
+    height: 313px;
+    left: 26px;
+    top: 10px;
+    right: 66px;
+
+    border: 1px solid #F563EA;
+    filter: drop-shadow(4px 4px 4px #F563EA);
+    border-radius: 30px;
+}
+
+.hrest_menu {
+    position: static;
+    width: 18.93px;
+    height: 17.4px;
+    margin-left: 1460px;
+    margin-top: 20px;
+}
+
+#modal1 {
+    position: absolute;
+    width: 100%;
+    height: 1980px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+}
+
+#modal1:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal1.active {
+    left: 250px;
+    top: 104px;
+}
+
+.modal1_window {
+    position: absolute;
+    width: 792px;
+    height: 613px;
+    left: 364px;
+    top: 104px;
+
+    background: linear-gradient(115.41deg, #C31AFF 11.88%, #F3D0FF 99.11%);
+    box-shadow: 6px 6px 4px #FFFFFF;
+}
+
+.hrest_modal1 {
+    position: absolute;
+    width: 18.93px;
+    height: 17.4px;
+    left: 728px;
+    top: 28px;
+}
+
+.mini_logo_modal1 {
+    position: absolute;
+    width: 30.9px;
+    height: 28px;
+    left: 375px;
+    top: 50px;
+}
+
+.line1_modal1 {
+    position: absolute;
+    width: 448px;
+    height: 0px;
+    left: 0px;
+    top: 120px;
+
+    border: 1px solid #C31AFF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.vr_and_ar_text {
+    position: absolute;
+    width: 124px;
+    height: 39px;
+    left: 330px;
+    top: 154px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.line2_modal1 {
+    position: absolute;
+    width: 448px;
+    height: 0px;
+    left: 340px;
+    top: 227px;
+
+    border: 1px solid #BD00FF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.descr_modal1 {
+    position: absolute;
+    width: 592px;
+    height: 285px;
+    left: 100px;
+    top: 288px;
+
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+#modal2 {
+    position: absolute;
+    width: 100%;
+    height: 1980px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden; 
+}
+
+#modal2:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal2.active {
+    left: 250px;
+    top: 104px;
+}
+
+.modal2_window {
+    position: absolute;
+    width: 792px;
+    height: 612px;
+    left: 384px;
+    top: 104px;
+    
+    background: linear-gradient(115.41deg, #C31AFF 11.88%, #F3D0FF 99.11%);
+    box-shadow: 6px 6px 4px #FFFFFF;
+}
+
+.hrest_modal2 {
+    position: absolute;
+    width: 18.93px;
+    height: 17.4px;
+    left: 728px;
+    top: 28px;
+}
+
+.mini_logo_modal2 {
+    position: absolute;
+    width: 30.9px;
+    height: 28px;
+    left: 375px;
+    top: 50px;
+}
+
+.line1_modal2 {
+    position: absolute;
+    width: 448px;
+    height: 0px;
+    left: 0px;
+    top: 120px;
+
+    border: 1px solid #C31AFF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.vr_and_mr_text {
+    position: absolute;
+    width: 532px;
+    height: 39px;
+    left: 136px;
+    top: 156px;
+    
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+    
+}
+
+.line2_modal2 {
+    position: absolute;
+    width: 448px;
+    height: 0px;
+    left: 340px;
+    top: 227px;
+
+    border: 1px solid #BD00FF;
+    box-shadow: 4px 4px 4px #FFFFFF;
+}
+
+.descr_modal2 {
+    position: absolute;
+    width: 592px;
+    height: 171px;
+    left: 94px;
+    top: 258px;
+    
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
